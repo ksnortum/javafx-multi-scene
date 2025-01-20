@@ -9,10 +9,9 @@ The Stage is injected from Main into each View and from there into each controll
 The graphics were kept simple, as the point of the demo is the switching between Scenes.
 
 ## Requirements
-**javafx-multi-scene** should run on Java 8 or above.
+**javafx-multi-scene** runs on Java 11 or above.
 
 ## Launching
 Launch **javafx-multi-scene** from your favorite IDE, or with [Maven](https://maven.apache.org/):
 
-    mvn exec:java
-
+    mvn clean compile exec:java
